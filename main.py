@@ -27,7 +27,7 @@ class Chick:
 
 class App:
     def __init__(self):
-        pyxel.init(SCREEN_WIDTH, SCREEN_HEIGHT, title="ひなころボンバー")
+        pyxel.init(SCREEN_WIDTH, SCREEN_HEIGHT, title="ひよころパラダイス")
         pyxel.load("my_resource.pyxres")
         self.chicks = []
         pyxel.mouse(True)
