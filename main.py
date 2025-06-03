@@ -43,7 +43,7 @@ class Chick:
 
 class App:
     def __init__(self):
-        pyxel.init(SCREEN_WIDTH, SCREEN_HEIGHT, title="ひよころシューティング")
+        pyxel.init(SCREEN_WIDTH, SCREEN_HEIGHT, title="ひよころくりっく")
         pyxel.load("my_resource.pyxres")
         self.chicks = []
         self.score = 0
